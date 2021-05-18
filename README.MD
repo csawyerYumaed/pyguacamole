@@ -10,7 +10,7 @@ to use this code, just copy the guacamole.py file into your project, and then st
 
 This requires the requests library(https://docs.python-requests.org/en/master/) and python3 (tested against Python 3.6.9).
 
-The user permissions required:
+The user permissions required in Guacamole for the 'apiuser':
 ```
 Administer system:
 Create new users:
