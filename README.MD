@@ -4,11 +4,15 @@ This code is terrible, but it works with Guacamole 1.3.0.
 
 This is not a "python project" structured repo, it's just the guacamole file I created to get the job done, that sits within our local private repo that handles this stuff.
 
-audit's have not been done, this is not for "production" at this point.
+STATUS: we are using it internally for a development project, we are unlikely to make this a proper "python project" @ pypi ourselves.
+That said, PR's are very welcome and if you create that stuff, we are probably happy to use it. :)
 
-to use this code, just copy the guacamole.py file into your project, and then start a Guac() object, and call guac.Function() with information.
+There are docstring docs for basically everything, there are bound to be bugs and issues.
+
+To use this code, just copy the guacamole.py file into your project, and then start a Guac() object, and call guac with information as needed.
 
 This requires the requests library(https://docs.python-requests.org/en/master/) and python3 (tested against Python 3.6.9).
+
 
 The user permissions required in Guacamole for the 'apiuser':
 ```
@@ -19,7 +23,7 @@ Create new connections:
 Create new connection groups:
 ```
 
-examples:
+example, check for and then add a connection and user if not found. Note, this example needs formatting, but I am too lazy at the moment. send a PR.
 
 ```python
 from guacamole import Guac
