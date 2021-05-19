@@ -29,7 +29,7 @@ example, check for and then add a connection and user if not found. Note, this e
 from guacamole import Guac
 import pprint
 
-guac = Guac()
+guac = Guac(url='https://127.0.0.1:8080/guacamole/')
 #authenticate to Guacamole and get a token.
 guac.auth('apiuser','apipassword')
 
