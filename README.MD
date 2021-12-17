@@ -4,8 +4,11 @@ This code is terrible, but it works with Guacamole 1.3.0.
 
 This is not a "python project" structured repo, it's just the guacamole file I created to get the job done, that sits within our local private repo that handles this stuff.
 
+FYI, you should take a look at: https://github.com/pschmitt/guacapy if it meets your needs, it will almost certainly be maintained better than this code.
+
 STATUS: we are using it internally for a development project, we are unlikely to make this a proper "python project" @ pypi ourselves.
 That said, PR's are very welcome and if you create that stuff, we are probably happy to use it. :)
+
 
 There are docstring docs for basically everything, there are bound to be bugs and issues.
 
